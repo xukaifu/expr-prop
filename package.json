@@ -1,0 +1,26 @@
+{
+  "name": "expr-prop",
+  "version": "1.0.0",
+  "description": "Replace ${foo.baz} properties in strings ",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "property",
+    "expr"
+  ],
+  "repository": "xukaifu/expr-prop",
+  "license": "MIT",
+  "author": {
+    "name": "Elon Xu",
+    "email": "kaifuxu@gmail.com"
+  },
+  "dependencies": {
+    "dot-prop": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "matcha": "^0.7.0"
+  }
+}
