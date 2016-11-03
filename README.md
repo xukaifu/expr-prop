@@ -14,20 +14,20 @@ var obj = {
     version: '1.0.0',
     author:{
         email: 'kaifuxu@gmail.com'
-    }
+    },
     dependencies: [
         {
-            module: 'dot-prop',
-            version: '4.0.0'
+            module: 'prop-by-string',
+            version: '^1.0.1'
         }
     ]
 }
 
 exprProp.expr('name: ${name}, email: ${author.email}', obj)
-// => name: expr-prop, email: kaifuxu@gmail.com
+// name: expr-prop, email: kaifuxu@gmail.com
 
-exprProp.expr('depends:${dependencies[0].module}', obj)
-// => depends: dot-prop
+exprProp.expr('depends: ${dependencies[0].module}', obj)
+// depends: prop-by-string
 
 ```
 

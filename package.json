@@ -1,6 +1,6 @@
 {
   "name": "expr-prop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace ${foo.baz} properties in strings ",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "email": "kaifuxu@gmail.com"
   },
   "dependencies": {
-    "dot-prop": "^4.0.0"
+    "prop-by-string": "^1.0.1"
   },
   "devDependencies": {
     "ava": "*",
