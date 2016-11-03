@@ -8,7 +8,8 @@
   },
   "keywords": [
     "property",
-    "expr"
+    "expr",
+    "prop"
   ],
   "repository": "xukaifu/expr-prop",
   "license": "MIT",
