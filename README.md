@@ -29,5 +29,7 @@ exprProp.expr('name: ${name}, email: ${author.email}', obj)
 exprProp.expr('depends:${dependencies[0].module}', obj)
 // => depends: dot-prop
 
+```
+
 ## License
 MIT
