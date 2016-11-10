@@ -1,6 +1,6 @@
 {
   "name": "expr-prop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replace ${foo.baz} properties in strings ",
   "main": "index.js",
   "scripts": {

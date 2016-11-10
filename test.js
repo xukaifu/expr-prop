@@ -35,5 +35,5 @@ test('expr', t => {
 
     t.is(m.expr('depends: ${dependencies[0].module}', obj), 'depends: prop-by-string');
     t.is(m.expr('name: ${name}, email: ${author.email}', obj), 'name: expr-prop, email: kaifuxu@gmail.com');
-    
+    t.is(m.expr('user.name: ${user.name}', obj), 'user.name: ');    
 });

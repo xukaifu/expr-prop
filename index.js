@@ -14,6 +14,8 @@ module.exports = {
             return ret;
         for (var i = 0; i < arr.length; i++) {
             var prop = propByString.get(arr[i].substring(2, arr[i].length - 1), obj)
+            if (prop===undefined || prop===null)
+                prop = ''
             ret = ret.replace(arr[i], (typeof prop == "object" || typeof prop == "array") ? JSON.stringify(prop) : prop)
         }
         return ret;
